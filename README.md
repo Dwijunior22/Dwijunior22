@@ -1,23 +1,21 @@
-<!-- HEADER WAVE ANIMATION -->
+<!-- CYBER HEADER WAVE ANIMATION -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,6,11,16,21&height=220&section=header&text=Hi%20%F0%9F%91%8B,%20I'm%20Dwi%20Junior&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Information%20Systems%20Student%20|%20Software%20Developer%20|%20Data%20and%20AI%20Enthusiast&descFontSize=18&descAlignY=60" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,6,11,16,21&height=220&section=header&text=DWI%20JUNIOR%20//%20PORTAL&fontSize=40&fontColor=00F5FF&animation=twinkling&fontAlignY=38&desc=%5B+%5D+Information+Systems+•+Software+Engineer+•+Data+and+AI+Specialist&descFontSize=16&descAlignY=60&v=3" width="100%"/>
 </div>
 
-<!-- TYPING SVG ANIMATION -->
+<!-- HACKER TERMINAL TYPING ANIMATION -->
 <div align="center">
   <a href="https://github.com/Dwijunior22">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=600&lines=Information+Systems+Student+from+Indonesia+%F0%9F%87%AE%F0%9F%87%A9;Building+Scalable+Mobile+%26+Web+Applications;Exploring+AI%2C+Machine+Learning+%26+Data+Analytics;Turning+ideas+into+real-world+solutions!" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2500&pause=800&color=00FF66&background=0D111700&center=true&vCenter=true&width=650&lines=dwi%40cyber-core%3A~%24+exec+data_analytics.py;%3E+Deploying+AI+and+Machine+Learning+Pipelines...;%3E+Architecting+Mobile+and+Web+Systems+(Flutter+%2B+Laravel);%3E+Bridging+Hardware%2C+Data+and+Modern+Code;Status%3A+Ready+for+Next-Gen+Collaborations!" alt="Cyber Typing Terminal" />
   </a>
 </div>
 
-<!-- PROFILE VIEWS -->
+<!-- LIVE METRICS & SOCIAL BADGES -->
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=dwijunior22&label=Profile%20Views&color=0e75b6&style=flat-square" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=dwijunior22&label=SYS_VIEWS&color=00F5FF&style=for-the-badge" alt="Profile Views" />
+  <img src="https://img.shields.io/badge/SECURITY-CLEARED-00FF66?style=for-the-badge&logo=wireguard&logoColor=white" alt="Security Cleared" />
+  <img src="https://img.shields.io/badge/STATUS-COMPUTING-FF007F?style=for-the-badge&logo=statuspage&logoColor=white" alt="Status Active" />
 </p>
-
----
-
-### 🌐 Connect With Me
 
 <p align="center">
   <a href="https://www.linkedin.com/in/dwi-junior-0ba148421" target="_blank">
@@ -33,86 +31,26 @@
     <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white" alt="Kaggle" />
   </a>
   <a href="https://github.com/Dwijunior22" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=00FF66" alt="GitHub" />
   </a>
 </p>
 
 ---
 
-### 📌 About Me
+### 💻 `system_info.sh` — Terminal Diagnostics
 
-- 🔭 **Currently working on:** [EcoCash Partner](https://ecocash.id/) — a Flutter-based mobile application for field partners and the [EcoCash.id](https://ecocash.id/) web ecosystem.
-- 🌱 **Currently learning:** Flutter, Laravel, Artificial Intelligence, Machine Learning, Data Analytics, and Modern Software Development practices.
-- 👯 **Looking to collaborate on:** Web Development, Mobile Apps, Data Analytics, and AI/ML projects.
-- 🤝 **Looking for help with:** Building scalable distributed applications and advanced machine learning modeling.
-- 💬 **Ask me about:** PHP, Laravel, Python, MySQL, Power BI, Data Analytics, Flutter, and Full-Stack Engineering.
-- ⚡ **Fun fact:** I enjoy turning complex real-world problems into functional, elegant digital solutions.
+```bash
+┌──(dwi㉿cyber-workstation)-[~]
+└─$ neofetch --developer-profile
 
----
+  ██████╗ ██╗    ██╗██╗      OS: Linux / Cloud / Embedded Microcontrollers
+  ██╔══██╗██║    ██║██║      Host: Information Systems Core
+  ██║  ██║██║ █╗ ██║██║      Kernel: Full-Stack & Machine Learning Architecture
+  ██║  ██║██║███╗██║██║      Uptime: 24/7 Innovation & Continuous Learning
+  ██████╔╝╚███╔███╔╝██║      Shell: zsh (Data Science Edition)
+  ╚═════╝  ╚══╝╚══╝ ╚═╝      Target: High-Impact Digital Solutions & AI Integration
 
-### 🛠️ Languages, Frameworks & Tools
-
-**Languages & Core Web**
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=python,php,dart,js,html,css" alt="Languages" />
-</p>
-
-**Frameworks & Libraries**
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=flutter,laravel,react,nextjs,express,tailwind,bootstrap" alt="Frameworks" />
-</p>
-
-**Data Science, Machine Learning & Analytics**
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=tensorflow,scikitlearn,opencv" alt="AI and ML" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
-  <img src="https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge&logo=python&logoColor=white" alt="Seaborn" />
-  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI" />
-</p>
-
-**Databases & Cloud Infrastructure**
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=mysql,postgres,redis,firebase,supabase,gcp" alt="Databases and Cloud" />
-</p>
-
-**DevOps, Hardware & Developer Tools**
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=git,github,docker,linux,postman,vscode,figma,arduino,androidstudio" alt="DevOps and Tools" />
-  <img src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white" alt="Selenium" />
-</p>
-
----
-
-### 📊 GitHub Activity & Statistics
-
-<div align="center">
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=Dwijunior22&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10&cache_seconds=86400" height="165" alt="GitHub Stats" />
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Dwijunior22&layout=compact&theme=tokyonight&hide_border=true&border_radius=10&cache_seconds=86400" height="165" alt="Top Languages" />
-</div>
-
-<div align="center">
-  <br/>
-  <img src="https://streak-stats.demolab.com/?user=Dwijunior22&theme=tokyonight&hide_border=true&border_radius=10" alt="GitHub Streak" />
-</div>
-
-<div align="center">
-  <br/>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Dwijunior22&theme=tokyo-night&hide_border=true&area=true" width="100%" alt="Activity Graph" />
-</div>
-
----
-
-### 🐍 Contribution Graph Animation
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dwijunior22/Dwijunior22/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Dwijunior22/Dwijunior22/output/github-contribution-grid-snake.svg">
-    <img alt="Snake contribution animation" src="https://raw.githubusercontent.com/Dwijunior22/Dwijunior22/output/github-contribution-grid-snake.svg">
-  </picture>
-</div>
-
-<!-- FOOTER WAVE -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,6,11,16,21&height=100&section=footer" width="100%"/>
-</div>
+  [>] CURRENT_MISSION : Architecting EcoCash Partner (Flutter Mobile & Web Ecosystem)
+  [>] RESEARCH_FOCUS  : Predictive Analytics, Machine Learning & Modern Web Frameworks
+  [>] COLLABORATION   : Open for Web, Mobile, Data Engineering & AI Deployments
+  [>] PHILOSOPHY      : Turning complex real-world data into functional, scalable logic.
