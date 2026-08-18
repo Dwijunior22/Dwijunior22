@@ -10,16 +10,10 @@
   </a>
 </div>
 
-<!-- PROFILE VIEWS & TROPHIES -->
+<!-- PROFILE VIEWS -->
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=dwijunior22&label=Profile%20Views&color=0e75b6&style=flat-square" alt="Profile Views" />
 </p>
-
-<div align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=dwijunior22&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4" alt="GitHub Trophies" />
-  </a>
-</div>
 
 ---
 
@@ -92,13 +86,18 @@
 ### 📊 GitHub Activity & Statistics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Dwijunior22&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10" height="165" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dwijunior22&layout=compact&theme=tokyonight&hide_border=true&border_radius=10" height="165" alt="Top Languages" />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=Dwijunior22&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10&cache_seconds=86400" height="165" alt="GitHub Stats" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Dwijunior22&layout=compact&theme=tokyonight&hide_border=true&border_radius=10&cache_seconds=86400" height="165" alt="Top Languages" />
 </div>
 
 <div align="center">
   <br/>
   <img src="https://streak-stats.demolab.com/?user=Dwijunior22&theme=tokyonight&hide_border=true&border_radius=10" alt="GitHub Streak" />
+</div>
+
+<div align="center">
+  <br/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Dwijunior22&theme=tokyo-night&hide_border=true&area=true" width="100%" alt="Activity Graph" />
 </div>
 
 ---
