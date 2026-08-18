@@ -1,6 +1,6 @@
 <!-- HEADER WAVE ANIMATION -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,6,11,16,21&height=220&section=header&text=Hi%20%F0%9F%91%8B,%20I'm%20Dwi%20Junior&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Information%20Systems%20Student%20|%20Software%20Developer%20|%20Data%20%26%20AI%20Enthusiast&descFontSize=18&descAlignY=60" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,6,11,16,21&height=220&section=header&text=Hi%20%F0%9F%91%8B,%20I'm%20Dwi%20Junior&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Information%20Systems%20Student%20|%20Software%20Developer%20|%20Data%20and%20AI%20Enthusiast&descFontSize=18&descAlignY=60" width="100%"/>
 </div>
 
 <!-- TYPING SVG ANIMATION -->
