@@ -1,0 +1,235 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="610" viewBox="0 0 1180 610" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" role="img" aria-label="Dwi Junior — profile.sh --live">
+<defs>
+  <!-- Animated Cyber Gradient Border -->
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#22D3EE"><animate attributeName="stop-color" values="#22D3EE;#A78BFA;#10B981;#22D3EE" dur="8s" repeatCount="indefinite"/></stop>
+    <stop offset="50%" stop-color="#A78BFA"><animate attributeName="stop-color" values="#A78BFA;#10B981;#22D3EE;#A78BFA" dur="8s" repeatCount="indefinite"/></stop>
+    <stop offset="100%" stop-color="#10B981"><animate attributeName="stop-color" values="#10B981;#22D3EE;#A78BFA;#10B981" dur="8s" repeatCount="indefinite"/></stop>
+  </linearGradient>
+
+  <!-- Laser Scanline Gradient -->
+  <linearGradient id="scannerGrad" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#22D3EE" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#22D3EE" stop-opacity="0.7"/>
+    <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+  </linearGradient>
+
+  <!-- Portrait Matrix Gradient -->
+  <linearGradient id="cyberMesh" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#38BDF8"/>
+    <stop offset="60%" stop-color="#A78BFA"/>
+    <stop offset="100%" stop-color="#0284C7"/>
+  </linearGradient>
+
+  <linearGradient id="panelGrad" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#0A101F"/>
+    <stop offset="100%" stop-color="#070B16"/>
+  </linearGradient>
+
+  <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+    <feGaussianBlur stdDeviation="5" result="blur" />
+    <feMerge>
+      <feMergeNode in="blur" />
+      <feMergeNode in="SourceGraphic" />
+    </feMerge>
+  </filter>
+
+  <filter id="glowSubtle" x="-20%" y="-20%" width="140%" height="140%">
+    <feGaussianBlur stdDeviation="2" result="blur" />
+    <feMerge>
+      <feMergeNode in="blur" />
+      <feMergeNode in="SourceGraphic" />
+    </feMerge>
+  </filter>
+
+  <clipPath id="winClip">
+    <rect x="2" y="2" width="1176" height="606" rx="16"/>
+  </clipPath>
+  
+  <clipPath id="avatarClip">
+    <rect x="36" y="84" width="400" height="492" rx="10"/>
+  </clipPath>
+</defs>
+
+<!-- Window Container -->
+<g clip-path="url(#winClip)">
+  <rect x="2" y="2" width="1176" height="606" fill="url(#panelGrad)"/>
+  
+  <!-- Terminal Top Bar -->
+  <rect x="2" y="2" width="1176" height="46" fill="#0B1222"/>
+  <line x1="2" y1="48" x2="1178" y2="48" stroke="rgba(255,255,255,0.08)"/>
+  <circle cx="30" cy="24" r="6" fill="#FF5F56"/>
+  <circle cx="50" cy="24" r="6" fill="#FFBD2E"/>
+  <circle cx="70" cy="24" r="6" fill="#27C93F"/>
+  <text x="590" y="28" text-anchor="middle" font-size="12" fill="#94A3B8" letter-spacing="1">dwijunior03@gmail.com — % ./profile.sh --matrix-live</text>
+
+  <!-- ==================== LEFT PANEL: NEURAL AVATAR MATRIX ==================== -->
+  <text x="40" y="74" font-size="11" letter-spacing="2" fill="#22D3EE" font-weight="700">NEURAL.AVATAR // MATRIX_SCAN</text>
+  
+  <!-- Frame Box -->
+  <rect x="36" y="84" width="400" height="492" rx="10" fill="#050811" stroke="rgba(34,211,238,0.35)" stroke-width="1.5"/>
+
+  <!-- Background Cyber HUD Grids inside Avatar -->
+  <g clip-path="url(#avatarClip)" opacity="0.35">
+    <line x1="36" y1="200" x2="436" y2="200" stroke="#22D3EE" stroke-width="0.5" stroke-dasharray="4 4"/>
+    <line x1="36" y1="340" x2="436" y2="340" stroke="#22D3EE" stroke-width="0.5" stroke-dasharray="4 4"/>
+    <line x1="160" y1="84" x2="160" y2="576" stroke="#22D3EE" stroke-width="0.5" stroke-dasharray="4 4"/>
+    <line x1="310" y1="84" x2="310" y2="576" stroke="#22D3EE" stroke-width="0.5" stroke-dasharray="4 4"/>
+    <circle cx="236" cy="250" r="130" fill="none" stroke="#A78BFA" stroke-width="0.8" stroke-dasharray="5 5">
+      <animateTransform attributeName="transform" type="rotate" from="0 236 250" to="360 236 250" dur="25s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Vectorized Portrait from Photo (Dwi Junior Silhouette, Hair, Sportswear Chevron Jacket) -->
+  <g clip-path="url(#avatarClip)">
+    <!-- Cyber Scan Wave Animation -->
+    <rect x="36" y="84" width="400" height="35" fill="url(#scannerGrad)" opacity="0.6">
+      <animate attributeName="y" values="84;550;84" dur="4s" repeatCount="indefinite" />
+    </rect>
+
+    <!-- Main Silhouette -->
+    <!-- Jacket Lower Base -->
+    <path d="M 80 576 L 120 420 L 170 380 L 236 395 L 302 380 L 352 420 L 392 576 Z" fill="#131C31" stroke="#22D3EE" stroke-width="1.2" opacity="0.8"/>
+    
+    <!-- Sportswear Navy Dynamic Symmetrical Curve on Right Chest -->
+    <path d="M 120 420 L 236 490 L 236 395 L 170 380 Z" fill="#1E3A8A" stroke="#38BDF8" stroke-width="1.5"/>
+    <!-- Sportswear Grey Tone on Left Chest -->
+    <path d="M 352 420 L 236 490 L 236 395 L 302 380 Z" fill="#334155" stroke="#94A3B8" stroke-width="1"/>
+    
+    <!-- High Neck Collar & Zipper Line -->
+    <path d="M 195 385 L 205 320 L 267 320 L 277 385 Z" fill="#1E293B" stroke="#A78BFA" stroke-width="1.2"/>
+    <line x1="236" y1="320" x2="236" y2="440" stroke="#22D3EE" stroke-width="2" stroke-dasharray="3 2" filter="url(#glowSubtle)"/>
+
+    <!-- Neck & Jawline -->
+    <path d="M 208 325 L 208 280 L 236 300 L 264 280 L 264 325 Z" fill="#0F172A" stroke="#22D3EE" stroke-width="1"/>
+
+    <!-- Face Structure Contour -->
+    <path d="M 190 205 C 185 245 205 285 236 295 C 267 285 287 245 282 205 C 280 170 192 170 190 205 Z" fill="#0A101F" stroke="url(#cyberMesh)" stroke-width="1.8" filter="url(#glowSubtle)"/>
+
+    <!-- Curly/Wavy Textured Hair Profile (Signature Volume) -->
+    <path d="M 172 195 C 160 170 175 140 195 130 C 210 115 240 110 265 125 C 290 115 315 145 305 175 C 315 190 300 215 285 210 C 275 220 260 210 250 212 C 240 215 230 208 220 212 C 205 210 195 218 185 208 C 175 212 168 205 172 195 Z" fill="#030712" stroke="#A78BFA" stroke-width="2"/>
+    
+    <!-- Hair Volume Curly Strands (Vector Lines) -->
+    <path d="M 185 155 Q 200 140 220 150 Q 240 135 260 150 Q 280 135 295 160" fill="none" stroke="#22D3EE" stroke-width="1.2" opacity="0.7"/>
+    <path d="M 190 175 Q 210 160 235 170 Q 260 160 280 175" fill="none" stroke="#A78BFA" stroke-width="1.2" opacity="0.6"/>
+    <path d="M 210 190 Q 235 180 260 190" fill="none" stroke="#10B981" stroke-width="1" opacity="0.5"/>
+
+    <!-- Facial Features HUD Nodes (Cyberpunk Eyes, Nose, Lips) -->
+    <circle cx="215" cy="225" r="2.5" fill="#22D3EE" filter="url(#glowSubtle)"/>
+    <circle cx="257" cy="225" r="2.5" fill="#22D3EE" filter="url(#glowSubtle)"/>
+    <line x1="207" y1="220" x2="223" y2="220" stroke="#38BDF8" stroke-width="1.5"/>
+    <line x1="249" y1="220" x2="265" y2="220" stroke="#38BDF8" stroke-width="1.5"/>
+    <path d="M 236 230 L 232 252 L 240 252" fill="none" stroke="#A78BFA" stroke-width="1.2"/>
+    <path d="M 224 268 Q 236 274 248 268" fill="none" stroke="#22D3EE" stroke-width="1.5"/>
+
+    <!-- Neural Coordinate Constellation Nodes -->
+    <g fill="#10B981">
+      <circle cx="190" cy="205" r="2"/>
+      <circle cx="282" cy="205" r="2"/>
+      <circle cx="236" cy="295" r="2.5"/>
+      <circle cx="170" cy="380" r="2"/>
+      <circle cx="302" cy="380" r="2"/>
+      <circle cx="236" cy="490" r="3"/>
+    </g>
+    <line x1="190" y1="205" x2="236" y2="295" stroke="rgba(16,185,129,0.3)" stroke-width="0.8"/>
+    <line x1="282" y1="205" x2="236" y2="295" stroke="rgba(16,185,129,0.3)" stroke-width="0.8"/>
+    <line x1="170" y1="380" x2="236" y2="490" stroke="rgba(34,211,238,0.3)" stroke-width="0.8"/>
+    <line x1="302" y1="380" x2="236" y2="490" stroke="rgba(34,211,238,0.3)" stroke-width="0.8"/>
+  </g>
+
+  <!-- HUD Corner Brackets -->
+  <path d="M 50 84 L 36 84 L 36 98" fill="none" stroke="#22D3EE" stroke-width="2"/>
+  <path d="M 422 84 L 436 84 L 436 98" fill="none" stroke="#22D3EE" stroke-width="2"/>
+  <path d="M 50 576 L 36 576 L 36 562" fill="none" stroke="#22D3EE" stroke-width="2"/>
+  <path d="M 422 576 L 436 576 L 436 562" fill="none" stroke="#22D3EE" stroke-width="2"/>
+
+
+  <!-- ==================== RIGHT PANEL: TELEMETRY SYSTEM INFO ==================== -->
+  <text x="470" y="104" font-size="13" letter-spacing="2" fill="#22D3EE" font-weight="700">SYSTEM.TELEMETRY</text>
+  <line x1="630" y1="100" x2="1040" y2="100" stroke="rgba(255,255,255,0.08)"/>
+  <text x="1125" y="104" text-anchor="end" font-size="12" fill="#10B981" font-weight="700">
+    <tspan fill="#10B981">&#9679;</tspan> ONLINE
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.8s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Identifier Badge -->
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.2s" fill="freeze"/>
+    <rect x="470" y="120" width="220" height="22" rx="4" fill="#1E1B4B" stroke="#6366F1" stroke-width="1"/>
+    <text x="480" y="135" font-size="13" font-weight="700" fill="#C7D2FE">DWI JUNIOR // ARCHITECT</text>
+    <line x1="700" y1="131" x2="1125" y2="131" stroke="rgba(255,255,255,0.08)"/>
+  </g>
+
+  <!-- Telemetry Row Items (Staggered Animation) -->
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.4s" fill="freeze"/>
+    <text x="470" y="166" font-size="13.5" textLength="655" lengthAdjust="spacingAndGlyphs" xml:space="preserve"><tspan fill="#22D3EE">Subject </tspan><tspan fill="rgba(148,163,184,0.3)">.........................................................................</tspan><tspan fill="#F8FAFC" font-weight="600"> Dwi Junior</tspan></text>
+  </g>
+
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.55s" fill="freeze"/>
+    <text x="470" y="190" font-size="13.5" textLength="655" lengthAdjust="spacingAndGlyphs" xml:space="preserve"><tspan fill="#22D3EE">Role </tspan><tspan fill="rgba(148,163,184,0.3)">...................................................</tspan><tspan fill="#F8FAFC" font-weight="600"> Software Engineer &amp; IS Specialist</tspan></text>
+  </g>
+
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.70s" fill="freeze"/>
+    <text x="470" y="214" font-size="13.5" textLength="655" lengthAdjust="spacingAndGlyphs" xml:space="preserve"><tspan fill="#22D3EE">Origin </tspan><tspan fill="rgba(148,163,184,0.3)">................................................................</tspan><tspan fill="#F8FAFC" font-weight="600"> Indonesia 🇮🇩</tspan></text>
+  </g>
+
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.85s" fill="freeze"/>
+    <text x="470" y="238" font-size="13.5" textLength="655" lengthAdjust="spacingAndGlyphs" xml:space="preserve"><tspan fill="#22D3EE">Mission </tspan><tspan fill="rgba(148,163,184,0.3)">.....................................</tspan><tspan fill="#F8FAFC" font-weight="600"> EcoCash Partner (Flutter App &amp; Web)</tspan></text>
+  </g>
+
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.00s" fill="freeze"/>
+    <text x="470" y="262" font-size="13.5" textLength="655" lengthAdjust="spacingAndGlyphs" xml:space="preserve"><tspan fill="#22D3EE">Status </tspan><tspan fill="rgba(148,163,184,0.3)">.........................................</tspan><tspan fill="#F8FAFC" font-weight="600"> Engineering + ML Modeling + Scaling</tspan></text>
+  </g>
+
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.15s" fill="freeze"/>
+    <text x="470" y="295" font-size="13.5" textLength="655" lengthAdjust="spacingAndGlyphs" xml:space="preserve"><tspan fill="#A78BFA">Core.Lang </tspan><tspan fill="rgba(148,163,184,0.3)">.....................................................</tspan><tspan fill="#F8FAFC" font-weight="600"> Python, PHP, Dart, JavaScript</tspan></text>
+  </g>
+
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.30s" fill="freeze"/>
+    <text x="470" y="319" font-size="13.5" textLength="655" lengthAdjust="spacingAndGlyphs" xml:space="preserve"><tspan fill="#A78BFA">Frameworks </tspan><tspan fill="rgba(148,163,184,0.3)">.............................................</tspan><tspan fill="#F8FAFC" font-weight="600"> Flutter, Laravel, React, Tailwind</tspan></text>
+  </g>
+
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.45s" fill="freeze"/>
+    <text x="470" y="343" font-size="13.5" textLength="655" lengthAdjust="spacingAndGlyphs" xml:space="preserve"><tspan fill="#A78BFA">Data &amp; AI </tspan><tspan fill="rgba(148,163,184,0.3)">........................................</tspan><tspan fill="#F8FAFC" font-weight="600"> TensorFlow, Scikit-Learn, Power BI</tspan></text>
+  </g>
+
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.60s" fill="freeze"/>
+    <text x="470" y="367" font-size="13.5" textLength="655" lengthAdjust="spacingAndGlyphs" xml:space="preserve"><tspan fill="#A78BFA">Database </tspan><tspan fill="rgba(148,163,184,0.3)">...................................................</tspan><tspan fill="#F8FAFC" font-weight="600"> MySQL, PostgreSQL, Redis</tspan></text>
+  </g>
+
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.75s" fill="freeze"/>
+    <text x="470" y="391" font-size="13.5" textLength="655" lengthAdjust="spacingAndGlyphs" xml:space="preserve"><tspan fill="#A78BFA">Platform </tspan><tspan fill="rgba(148,163,184,0.3)">.....................................................</tspan><tspan fill="#F8FAFC" font-weight="600"> Firebase, Supabase, GCP, IoT</tspan></text>
+  </g>
+
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.90s" fill="freeze"/>
+    <text x="470" y="420" font-size="13" letter-spacing="1" fill="#94A3B8">- Network Coordinates --------------------------------------------------------</text>
+  </g>
+
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="2.05s" fill="freeze"/>
+    <text x="470" y="444" font-size="13.5" textLength="655" lengthAdjust="spacingAndGlyphs" xml:space="preserve"><tspan fill="#10B981">Grid.Mail </tspan><tspan fill="rgba(148,163,184,0.3)">......................................................</tspan><tspan fill="#F8FAFC" font-weight="600"> dwijunior03@gmail.com</tspan></text>
+  </g>
+
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="2.20s" fill="freeze"/>
+    <text x="470" y="468" font-size="13.5" textLength="655" lengthAdjust="spacingAndGlyphs" xml:space="preserve"><tspan fill="#10B981">Grid.LinkedIn </tspan><tspan fill="rgba(148,163,184,0.3)">..........................................</tspan><tspan fill="#F8FAFC" font-weight="600"> in/dwi-junior-0ba148421</tspan></text>
+  </g>
+
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="2.35s" fill="freeze"/>
+    <text x="470" y="492" font-size="13.5" textLength="655" lengthAdjust="spacingAndGlyphs" xml:space="preserve"><tspan fill="#10B981">Grid.GitHub </tspan><tspan fill="rgba(148,163,184,0.3)">............................................................</tspan><tspan fill="#F8FAFC" font-weight="600"> @Dwijunior22</tspan></text>
+  </g>
+
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="2.50s" fill="freeze"/>
+    <text x="470" y="516" font-size="13.5" textLength="655" lengthAdjust="spacingAndGlyphs" xml:space="preserve"><tspan fill="#10B981">Grid.Instagram </tspan><tspan fill="rgba(148,163,184,0.3)">...........................................................</tspan><tspan fill="#F8FAFC" font-weight="600"> @dwi_jr03</tspan></text>
+  </g>
+
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="2.65s" fill="freeze"/>
+    <text x="470" y="540" font-size="13.5" textLength="655" lengthAdjust="spacingAndGlyphs" xml:space="preserve"><tspan fill="#10B981">Grid.Kaggle </tspan><tspan fill="rgba(148,163,184,0.3)">.........................................................</tspan><tspan fill="#F8FAFC" font-weight="600"> @dwijunior22</tspan></text>
+  </g>
+
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="2.85s" fill="freeze"/>
+    <text x="470" y="574" font-size="13" fill="#94A3B8">&#9656; Turning abstract data into scalable real-world solutions <tspan fill="#22D3EE">&#9608;<animate attributeName="fill-opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/></tspan></text>
+  </g>
+</g>
+
+<!-- Animated Glowing Outer Neon Border -->
+<rect x="3" y="3" width="1174" height="604" rx="16" fill="none" stroke="url(#accent)" stroke-width="3.5" opacity="0.45" filter="url(#glow)"/>
+<rect x="3" y="3" width="1174" height="604" rx="16" fill="none" stroke="url(#accent)" stroke-width="1.8"/>
+</svg>
