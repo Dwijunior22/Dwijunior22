@@ -11,10 +11,6 @@
     media="(prefers-color-scheme: dark)"
     srcset="https://raw.githubusercontent.com/Dwijunior22/Dwijunior22/main/dark.svg"
   />
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/Dwijunior22/Dwijunior22/main/light.svg"
-  />
   <img
     width="100%"
     alt="Dwi Junior - Software Developer | Data & AI Enthusiast"
